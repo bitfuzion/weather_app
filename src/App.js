@@ -6,7 +6,7 @@ function App() {
   const [location, setLocation] = useState('')
   const [currentTime, setCurrentTime] = useState(new Date());
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=87468f8adc3ffad3b0711f8bec0b98f0
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=""
   `
   useEffect(() => {
     const intervalId = setInterval(() => {
